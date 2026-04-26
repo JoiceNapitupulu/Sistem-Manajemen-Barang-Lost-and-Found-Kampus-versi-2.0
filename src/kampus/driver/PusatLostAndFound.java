@@ -60,13 +60,13 @@ public class PusatLostAndFound {
     public void prosesKlaimBarang(String idLaporan, String idBarang, String nimPenemu, String nimPemilik) {
         class ValidatorKlaim {
             public boolean isKlaimValid() {
-                return nimPemilik != null && !nimPemilik.trim().isEmpty() && nimPemilik.length() == 8;
+                return nimPemilik != null && !nimPemilik.trim().isEmpty() && nimPemilik.length() == 10;
             }
         }
 
         ValidatorKlaim validator = new ValidatorKlaim();
         if (!validator.isKlaimValid()) {
-            System.out.println("Klaim gagal! NIM pemilik harus persis 8 karakter dan tidak boleh kosong.");
+            System.out.println("Klaim gagal! NIM pemilik harus persis 10 karakter dan tidak boleh kosong.");
             return;
         }
 

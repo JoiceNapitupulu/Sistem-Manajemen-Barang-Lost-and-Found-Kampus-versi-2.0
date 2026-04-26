@@ -108,9 +108,9 @@ Pilih opsi (1-6): 3
 --- Klaim Barang Hilang ---
 Masukkan ID Laporan Klaim   : K-001
 Masukkan ID Barang          : E001
-Masukkan NIM Penemu (opsional, tekan enter jika tidak tahu/isi '-'): 13322001
-Masukkan NIM Pemilik Baru/Klaimer : 1332210  
-Klaim gagal! NIM pemilik harus persis 8 karakter dan tidak boleh kosong.
+Masukkan NIM Penemu (opsional, tekan enter jika tidak tahu/isi '-'): 1332200100
+Masukkan NIM Pemilik Baru/Klaimer : 133221099
+Klaim gagal! NIM pemilik harus persis 10 karakter dan tidak boleh kosong.
 
 Menu Utama:
 ...
@@ -119,8 +119,8 @@ Pilih opsi (1-6): 3
 --- Klaim Barang Hilang ---
 Masukkan ID Laporan Klaim   : K-001
 Masukkan ID Barang          : E001
-Masukkan NIM Penemu (opsional, tekan enter jika tidak tahu/isi '-'): 13322001
-Masukkan NIM Pemilik Baru/Klaimer : 13322100
+Masukkan NIM Penemu (opsional, tekan enter jika tidak tahu/isi '-'): 1332200100
+Masukkan NIM Pemilik Baru/Klaimer : 1332210099
 Klaim berhasil disetujui untuk barang: Laptop Asus
 ```
 
